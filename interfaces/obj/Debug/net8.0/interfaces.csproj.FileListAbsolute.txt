@@ -1,0 +1,13 @@
+C:\Users\gabri\RiderProjects\ExchangeRateWebAPI\interfaces\bin\Debug\net8.0\interfaces.deps.json
+C:\Users\gabri\RiderProjects\ExchangeRateWebAPI\interfaces\bin\Debug\net8.0\interfaces.dll
+C:\Users\gabri\RiderProjects\ExchangeRateWebAPI\interfaces\bin\Debug\net8.0\interfaces.pdb
+C:\Users\gabri\RiderProjects\ExchangeRateWebAPI\interfaces\obj\Debug\net8.0\interfaces.csproj.AssemblyReference.cache
+C:\Users\gabri\RiderProjects\ExchangeRateWebAPI\interfaces\obj\Debug\net8.0\interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\RiderProjects\ExchangeRateWebAPI\interfaces\obj\Debug\net8.0\interfaces.AssemblyInfoInputs.cache
+C:\Users\gabri\RiderProjects\ExchangeRateWebAPI\interfaces\obj\Debug\net8.0\interfaces.AssemblyInfo.cs
+C:\Users\gabri\RiderProjects\ExchangeRateWebAPI\interfaces\obj\Debug\net8.0\interfaces.csproj.CoreCompileInputs.cache
+C:\Users\gabri\RiderProjects\ExchangeRateWebAPI\interfaces\obj\Debug\net8.0\interfaces.sourcelink.json
+C:\Users\gabri\RiderProjects\ExchangeRateWebAPI\interfaces\obj\Debug\net8.0\interfaces.dll
+C:\Users\gabri\RiderProjects\ExchangeRateWebAPI\interfaces\obj\Debug\net8.0\refint\interfaces.dll
+C:\Users\gabri\RiderProjects\ExchangeRateWebAPI\interfaces\obj\Debug\net8.0\interfaces.pdb
+C:\Users\gabri\RiderProjects\ExchangeRateWebAPI\interfaces\obj\Debug\net8.0\ref\interfaces.dll

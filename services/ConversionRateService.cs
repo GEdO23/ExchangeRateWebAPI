@@ -10,40 +10,45 @@ public class ConversionRateService(HttpClient httpClient)
 
     public async Task<ConversionRate> GetConversionRateAsync()
     {
-        ConversionRate conversionRate = new()
-        {
-            timeStamp = DateTime.Now
-        };
-
-        var url = string.Concat(
-            _configModel.ExchangeRateApiUrl,
-            _configModel.ExchangeRateApiKey,
-            "/latest/USD"
-        );
+        var url = GetUrl();
 
         var httpResponse = await httpClient.GetAsync(url);
         
         var exchangeRateResponse =
-            await GetJsonDeserializedAsync(httpResponse);
+            await GetParsedJsonAsync(httpResponse);
 
-        if (exchangeRateResponse != null && 
-            exchangeRateResponse.ConversionRates.TryGetValue("BRL", out var rate)) 
-            conversionRate.currency = rate;
-
+        var conversionRate = GetConversionRate(exchangeRateResponse!);
+        
         return conversionRate;
     }
 
-    public async Task<ExchangeRateResponse?> GetJsonDeserializedAsync(HttpResponseMessage httpResponse)
+    private string GetUrl()
+    {
+        return string.Concat(
+            _configModel.ExchangeRateApiUrl,
+            _configModel.ExchangeRateApiKey,
+            "/latest/USD"
+        );
+    }
+
+    private async Task<ExchangeRateResponse?> GetParsedJsonAsync(HttpResponseMessage httpResponse)
     {
         var json = await httpResponse.Content.ReadAsStringAsync();
 
-        JsonSerializerOptions options = new()
-        {
-            PropertyNamingPolicy = JsonNamingPolicy.SnakeCaseLower
-        };
-
         var conversionRate =
-            JsonSerializer.Deserialize<ExchangeRateResponse>(json, options);
+            JsonSerializer.Deserialize<ExchangeRateResponse>(json);
+
+        return conversionRate;
+    }
+    
+    private ConversionRate GetConversionRate(ExchangeRateResponse exchangeRateResponse)
+    {
+        var conversionRate = new ConversionRate();
+        
+        if (exchangeRateResponse.ConversionRates.TryGetValue("BRL", out var rate)) 
+            conversionRate.currency = rate;
+
+        conversionRate.timeStamp = DateTime.Now;
 
         return conversionRate;
     }

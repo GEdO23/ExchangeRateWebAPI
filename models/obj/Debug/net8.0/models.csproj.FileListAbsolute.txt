@@ -1,0 +1,16 @@
+C:\Users\gabri\RiderProjects\ExchangeRateWebAPI\models\bin\Debug\net8.0\models.deps.json
+C:\Users\gabri\RiderProjects\ExchangeRateWebAPI\models\bin\Debug\net8.0\models.dll
+C:\Users\gabri\RiderProjects\ExchangeRateWebAPI\models\bin\Debug\net8.0\models.pdb
+C:\Users\gabri\RiderProjects\ExchangeRateWebAPI\models\bin\Debug\net8.0\interfaces.dll
+C:\Users\gabri\RiderProjects\ExchangeRateWebAPI\models\bin\Debug\net8.0\interfaces.pdb
+C:\Users\gabri\RiderProjects\ExchangeRateWebAPI\models\obj\Debug\net8.0\models.csproj.AssemblyReference.cache
+C:\Users\gabri\RiderProjects\ExchangeRateWebAPI\models\obj\Debug\net8.0\models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\RiderProjects\ExchangeRateWebAPI\models\obj\Debug\net8.0\models.AssemblyInfoInputs.cache
+C:\Users\gabri\RiderProjects\ExchangeRateWebAPI\models\obj\Debug\net8.0\models.AssemblyInfo.cs
+C:\Users\gabri\RiderProjects\ExchangeRateWebAPI\models\obj\Debug\net8.0\models.csproj.CoreCompileInputs.cache
+C:\Users\gabri\RiderProjects\ExchangeRateWebAPI\models\obj\Debug\net8.0\models.sourcelink.json
+C:\Users\gabri\RiderProjects\ExchangeRateWebAPI\models\obj\Debug\net8.0\models.csproj.Up2Date
+C:\Users\gabri\RiderProjects\ExchangeRateWebAPI\models\obj\Debug\net8.0\models.dll
+C:\Users\gabri\RiderProjects\ExchangeRateWebAPI\models\obj\Debug\net8.0\refint\models.dll
+C:\Users\gabri\RiderProjects\ExchangeRateWebAPI\models\obj\Debug\net8.0\models.pdb
+C:\Users\gabri\RiderProjects\ExchangeRateWebAPI\models\obj\Debug\net8.0\ref\models.dll
